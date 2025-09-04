@@ -70,7 +70,7 @@ jobs:
     - name: Build
       run: dotnet build Lab1/Lab1.sln --configuration ${{ matrix.configuration }} --no-restore
 
-    - name: Run tests (Purple→Blue→Green→White) (vstest)
+    - name: Run tests (Purple→Blue→Green→White) (vs test)
       id: cascade
       shell: pwsh
       env:
