@@ -1,4 +1,6 @@
-﻿namespace Lab1
+using System.Diagnostics.CodeAnalysis;
+
+namespace Lab1
 {
     public class Green
     {
@@ -7,6 +9,8 @@
             bool answer = false;
 
             // code here
+            double f = Math.Abs(d);
+            answer = f >= 1;
 
             // end
 
@@ -17,7 +21,8 @@
             bool answer = false;
 
             // code here
-
+            double sum = (d + f) / 2;
+            answer = sum > 0;
             // end
 
             return answer;
@@ -27,7 +32,9 @@
             bool answer = false;
 
             // code here
-
+            int sum = a + b;
+            double sr_znach = (Math.Abs(a) + Math.Abs(b)) / 2;
+            answer = sum > sr_znach;
             // end
 
             return answer;
@@ -37,6 +44,7 @@
             int answer = 0;
 
             // code here
+            answer = Math.Max(a, Math.Max(b, c));
 
             // end
 
@@ -47,6 +55,7 @@
             double answer = 0;
 
             // code here
+            double mod = Math.Abs(x);
 
             // end
 
