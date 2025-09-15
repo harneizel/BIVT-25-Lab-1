@@ -114,6 +114,7 @@ namespace Lab1
             {
                 if (n % 2 == 0)
                 {
+                    
                     answer = false;
                 }
                 else
